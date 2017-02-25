@@ -1,11 +1,9 @@
 li {
   display: inline-block;
   list-style: none;
-
-  /*margin-left: 0;*/
   padding: .25em;
   border: 1px dashed red;
-  /*box-orient: left;*/
+
 }
 
 h2 {
@@ -15,7 +13,8 @@ outline-color: red;
 vertical-align: baseline;
 border: 1px dashed blue;
 margin-top: 0;
-display: inline-block;
+margin-bottom: 0;
+display: block;
 }
 
 p {
@@ -47,9 +46,56 @@ h3 {
   color: #D3D3D3;
   font-family: 'News Cycle', sans-serif;
   margin-top: 0;
+  display: inline-block;
 }
 
 nav {
   display: inline-block;
   float: right;
+}
+
+.horizontal-line {
+  width: 100%;
+}
+
+.directions {
+  font-size: 3em;
+  text-indent: 3mm;
+}
+
+.title {
+  display: inline-block;
+}
+
+.print {
+  float: right;
+  color: #D3D3D3;
+}
+
+.box {
+  display: inline-block;
+}
+
+#left {
+
+}
+
+.recipe {
+  background-image: url("list-bg.png");
+  column-count: 2;
+}
+
+.line-seperator {
+  height: 1px;
+  border-bottom:1px solid #313030;
+}
+
+#profile {
+  font-family: serif;
+  display: inline;
+  text-align: center;
+}
+
+h4 p {
+  text-align: center;
 }
